@@ -1,23 +1,19 @@
 # 99 Bottles
 
-## Installing Ruby
+### ABC (flog)
+```
+flog lib/bottles.rb
+    29.2: flog total
+     3.2: flog/method average
 
-### Windows
+     5.9: Bottles#verses                   lib/bottles.rb:9
+     5.7: Bottles#line_two                 lib/bottles.rb:20
+     5.0: Bottles#verse                    lib/bottles.rb:2
+     3.2: Bottles#pluralize_bottles        lib/bottles.rb:36
+```
 
-There's an installer, it's easy.
-http://rubyinstaller.org/
-
-### Mac
-
-Newer macs ship with a usable version of Ruby.
-
-Try `ruby -v` in a terminal window, and if it's 1.9.x or 2.x you're fine.
-
-http://www.railstutorial.org/book/beginning#sec-install_ruby
-http://tutorials.jumpstartlab.com/topics/environment/environment.html
-http://docs.railsbridge.org/installfest/macintosh
-
-### Linux
-
-Ubuntu: http://docs.railsbridge.org/installfest/linux
-https://www.ruby-lang.org/en/installation/
+### SLOC
+```
+wc -l lib/bottles.rb
+      44 lib/bottles.rb
+```
