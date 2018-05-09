@@ -1,5 +1,8 @@
 # 99 Bottles
 
+### Test
+`ruby -Ilib:test  ./test/bottles_test.rb -p`
+
 ### ABC (flog)
 ```
 flog lib/bottles.rb
